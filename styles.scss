@@ -95,7 +95,7 @@ html, body {
             flex: 1;
             @include grid(52px, 16px, 312px);
             .cell {
-                height: 478px;
+                // height: 478px;
                 background-color: rgba(255,255,255,0.1);
                 border-radius: 20px;
             }
