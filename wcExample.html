@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playlist</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,300,0,0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings:
+            'FILL' 0,
+            'wght' 400,
+            'GRAD' 0,
+            'opsz' 48
+        }
+    </style>
+</head>
+<body >
+    Playlist web component
+    <playlist-card 
+        title="Zora Kiep Playlist" 
+        cover="https://api.lorem.space/image/fashion?w=150&h=150"
+        item-background-image="https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8YWJzdHJhY3R8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60"
+        item-title="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam deserunt incidunt mollitia ipsam saepe corporis nemo cum delectus laudantium quisquam sapiente quasi excepturi quos placeat maxime, aliquid sit similique nesciunt?"
+        item-author-and-date="Ludvig Wiese — 27/12/2021"
+        item-comments="275">
+    </playlist-card>
+    <script src="playlistCard.js"></script>
+</body>
+</html>
